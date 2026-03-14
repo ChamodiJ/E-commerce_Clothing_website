@@ -3,6 +3,8 @@
    justify-content: space-around;
    padding: 16px; 
    box-shadow: 0 1px 3px -2px black;
+   background:#59090A;
+
 }
 .nav-logo{
     display: flex;
@@ -10,12 +12,12 @@
     gap: 10px;
 }
 .nav-logo p{
-    color:#171717;
+    color:#F16767;
     font-size: 38px;
     font-weight: 600;
 }
 .nav-menu{
-     text-decoration: none;
+    text-decoration: none;
     display: flex;
     align-items: center;
     list-style: none;
@@ -23,6 +25,7 @@
     color: #626262;
     font-size: 20px;
     padding: 500;
+   
 }
 .nav-menu li{
     display: flex;
@@ -31,6 +34,7 @@
     justify-self: center;
     gap: 3px;
     cursor: pointer;
+    
 }
 .nav-menu hr{
     border: none;
